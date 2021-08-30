@@ -36,12 +36,12 @@ int main(void)
 	  Temp_byte2 = DHT11_Read ();
 	  SUM = DHT11_Read();//toplam deger
 
-		temp_0=Temp_byte2/10;
+	/*	temp_0=Temp_byte2/10;//Sıcaklık ve Nem bilgisini float tipinde almak için
 		hum_0 =Rh_byte2/10;
 
 	  Temperature = (float) Temp_byte1+temp_0;
-	  Humidity = (float) Rh_byte1+hum_0;
-		DelayUs(2000000);//2sn
+	  Humidity = (float) Rh_byte1+hum_0;*/
+		DelayUs(2000000);//2sn 
 	}
 	
 }
